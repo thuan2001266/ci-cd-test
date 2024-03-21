@@ -28,4 +28,4 @@ jobs:
           context: .
           push: true
           target: production
-          tags: petclinic:latest
+          tags: nauht/petclinic:latest
