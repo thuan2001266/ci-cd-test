@@ -9,10 +9,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - 
-        name: Debug
-        run: |
-          echo: ${{ secrets.DOCKER_USERNAME }}"
       -
         name: Checkout
         uses: actions/checkout@v4
